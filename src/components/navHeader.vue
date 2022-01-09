@@ -1,5 +1,7 @@
 <template lang="">
     <nav>
+        <img src="../assets/relax_logo.png" alt="relax logo">
+        <h1>Relax Studio</h1>
        <ul>
            <li>Home</li>
            <li>About</li>
@@ -16,6 +18,6 @@ export default {
     
 }
 </script>
-<style lang="">
+<style lang="scss">
     
 </style>
