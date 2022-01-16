@@ -39,7 +39,7 @@ export default {
         transition: 1s all;
         width: 200px;
         height: 100px;
-        background-color: red;
+        background-color: #4dc8e6;
         border-radius: 15px;
         @media screen and (max-width: 635px){
             width: 150px;
@@ -61,7 +61,7 @@ export default {
         }
         .description {
             height: 20%;
-            background-color: blue;
+            background-color: #3668c8;
             border-radius: 0 0 15px 15px;
             text-align: center;
         }
@@ -70,20 +70,24 @@ export default {
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 1.2em;
     }
     .projects {
         transition: 1s all;
+        color: white;
         display: flex;
         justify-content: space-around;
         margin: 50px 0 0 0;
         @media screen and (max-width: 635px){
-            transition: 1s all;
             margin: 25px 0 0 0;
             flex-direction: column;
             align-items: center;
             .comming-now, .comming-soon {
                 margin-bottom: 5px;
             }
+        }
+        @media screen and (min-width: 1200px){
+            margin: 150px 0 0 0;
         }
     }
 </style>

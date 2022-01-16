@@ -1,8 +1,8 @@
 <template lang="">
     <div class="contentArea">
-        <content-about></content-about>
-        <content-project></content-project>
-        <content-contact></content-contact>
+        <content-about id="About"></content-about>
+        <content-project id="Project"></content-project>
+        <content-contact id="Contact"></content-contact>
     </div>
 </template>
 <script>

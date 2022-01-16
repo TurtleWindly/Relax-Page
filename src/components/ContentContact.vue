@@ -7,11 +7,13 @@
                 <p>relax.companii@gmail.com</p>
             </li>
             <li>
-                <img src="../assets/facebook_icon.jpg" alt="facebook">
-                <p>This is my personal account but don't have anythings special yet</p>
+                <a href="https://www.facebook.com/profile.php?id=100022206015690" target="_blank">
+                    <img src="../assets/facebook_icon.jpg" alt="facebook">
+                    <p>This is my personal account but don't have anythings special yet</p>
+                </a>
             </li>
             <li>
-                <a href="https://github.com/TurtleWindly">
+                <a href="https://github.com/TurtleWindly" target="_blank">
                     <img src="../assets/github_icon.jpg" alt="github">
                     <p>And this is special where I put my code on and some small project with also have my first web page</p>
                 </a>
@@ -27,6 +29,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$text-color: black;
+
     footer {
         /* svg background */
         z-index: 200;
@@ -51,10 +55,14 @@ export default {
     li {
         @include flex-center;
         list-style: none;
+        color: $text-color;
         a {
-            display: flex;
-            align-items: center;
+            @include flex-center;
             text-decoration: none;
+            color: $text-color;
+            &:hover {
+                cursor: pointer;
+            }
         }
         img {
             width: 30px;
