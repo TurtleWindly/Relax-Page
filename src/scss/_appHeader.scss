@@ -10,6 +10,7 @@ header {
         -webkit-background-size: cover;
         background-size: cover;
         background-position: center -30px;
+        transition: all 1s ease;
     }
 
     @media screen and (max-width: 635px) {

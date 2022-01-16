@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.contentArea {
+    padding: 20px 0 0 0;
+    width: 100%;
+    position: relative;
+    top: 390px;
+    background: #fff;
+    height: auto;
+    animation: fade 1s ease 1;
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .para {
+        padding: 5px 40px;
+        text-align: start;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .contentArea {
+        top: 290px;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
