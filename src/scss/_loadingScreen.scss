@@ -9,9 +9,6 @@
     background-image: url(../assets/loadScreenD.svg);
     position: absolute;
     top: 0;
-    @media screen and (max-width: 635px) {
-        background-image: url(../assets/loadScreenM.svg);
-    }
 }
 
 

@@ -44,14 +44,23 @@ export default {
         // color things
         color: white;
     }
-    li {
+    @mixin flex-center {
         display: flex;
-        list-style: none;
         align-items: center;
+    }
+    li {
+        @include flex-center;
+        list-style: none;
+        a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
         img {
             width: 30px;
             height: 30px;
             margin-right: 5px;
         }
     }
+    
 </style>
